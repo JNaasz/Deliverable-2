@@ -1,0 +1,73 @@
+body {
+background-image: url("images/ice2.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center center;
+}
+header {
+position: absolute;
+top:10%;
+width: 100%;
+}
+#header {
+height: 100%;
+width: 50%;
+top: 15%;
+float: right;
+text-align: center;
+line-height: 60%;
+}
+@font-face {
+font-family: 'DancingScriptBold';
+src: url(DancingScript-Bold.ttf); format: (truetype);
+}
+h1 {
+font-family: 'DancingScriptBold', cursive;
+font-weight: heavy;
+font-style: normal;
+font-size: 650%;
+color: black;
+}
+li {
+display: inline;
+margin-right: 25px;
+font-size: 150%;
+line-height: 60%;
+font-family: cursive;
+}
+a:link {
+  color: olive;
+  text-decoration: none;
+}
+a:visited {
+  color: olive;
+  text-decoration: none;
+}
+a:hover {
+  color: green;
+  text-decoration: underline;
+}
+img {
+width: 30%;
+}
+#images img:nth-child(1) {
+position: absolute;
+top: 60%;
+left: 2.5%;
+border-radius: 10px;
+box-shadow: 0 0 20px black;
+}
+#images img:nth-child(2) {
+position: absolute;
+top: 60%;
+left: 35%;
+border-radius: 10px;
+box-shadow: 0 0 20px black;
+}
+#images img:nth-child(3) {
+position: absolute;
+top: 60%;
+right: 2.5%;
+border-radius: 10px;
+box-shadow: 0 0 20px black;
+}
